@@ -1,7 +1,21 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node",
+      "config": { "includeFiles": ["dist/**"] }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/dist/index.html"
+    }
+  ],
   "build": {
     "env": {
-      "NODE_VERSION": "18"
+      "NODE_VERSION": "22"
     }
   }
 }
