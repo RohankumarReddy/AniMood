@@ -1,4 +1,3 @@
-import React from "react";
 
 const Navbar = ({onBackClick,selectMood,handleBackClick}) => {
   return (
@@ -10,9 +9,9 @@ const Navbar = ({onBackClick,selectMood,handleBackClick}) => {
       <div className="navbar-start">
         <button onClick={handleBackClick} className="btn btn-ghost btn-circle hover:border-white transition-colors duration-200 ">
           <img
-            src="src/assets/japan-monument-svgrepo-com.svg"
+            src="/jap.svg"
             alt="Logo"
-            className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-9 lg:h-9"
+className="btn btn-circle border border-transparent hover:border-white transition-colors duration-200"
           />
         </button>
       </div>
@@ -36,7 +35,7 @@ const Navbar = ({onBackClick,selectMood,handleBackClick}) => {
     href="https://github.com/RohankumarReddy" 
     target="_blank" 
     rel="noopener noreferrer" 
-    className="btn btn-circle hover:border-white transition-colors duration-200"
+className="btn btn-circle border border-transparent hover:border-white transition-colors duration-200"
   >
     <svg 
       xmlns="http://www.w3.org/2000/svg" 
