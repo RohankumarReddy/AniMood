@@ -14,7 +14,7 @@
 
 **AniMood** is a mood-based anime recommendation web application built using **React** and **Vite**.  
 The platform allows users to select their current mood and receive curated anime recommendations.  
-Recommendations include detailed information such as genre, episode count, and other metadata, sourced through the **MyAnimeList API**.
+Recommendations include detailed information such as genre, episode count, and other metadata, sourced through the **Jikan API**.
 
 ## Features
 
